@@ -1,0 +1,65 @@
+.calc{
+    background-color: rgb(219, 216, 212);
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.title{
+    color: rgb(95, 93, 93);
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+.answer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.calc-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inputOne, .inputTwo{
+   width: 150px;
+   height: 33px;
+   border: 1px solid rgb(95, 93, 93);
+}
+.plus, .minus, .multiplication, .division{
+    width: 50px;
+    height: 37px;
+    cursor: pointer;
+    background-color: rgb(95, 93, 93);
+    color: aliceblue;
+    border: none;
+}
+.btnResult{
+    background-color: rgb(95, 93, 93);
+    color: aliceblue;
+    border: none;
+    width: 280px;
+    padding: 15px;
+    font-size: 15px;
+}
+.text{
+    color: rgb(95, 93, 93);
+    font-size: 25px;
+}
